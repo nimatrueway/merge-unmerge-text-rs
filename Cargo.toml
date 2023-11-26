@@ -1,0 +1,19 @@
+[package]
+name = "tart-rs"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = [
+    "clap/derive",
+    "log/std",
+]
+
+[dependencies]
+glob = "0.3.1"
+eyre = "0.6.8"
+log = "0.4.17"
+simplelog = "0.12.1"
+encoding_rs = "0.8.32"
+clap = "4.3.3"
+indicatif = "0.17.5"
